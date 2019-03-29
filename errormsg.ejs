@@ -1,0 +1,12 @@
+<html>
+    <body>
+            <form method = "post" action="/jsfiles/flash/fla">
+            <% if(locals.message){ %>
+                            
+                <div class="text text-center" role="alert">
+                <strong style="color:brown"><%= message.error_msg %></strong> 
+                </div>
+            <% } %>
+        </form>
+    </body>
+</html>
